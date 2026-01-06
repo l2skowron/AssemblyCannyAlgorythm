@@ -1,1 +1,9 @@
-﻿
+﻿  Assembling candll.asm...
+  The vcpkg manifest was disabled, but we found a manifest file in C:\Users\lucas\Desktop\studia\JA\AssemblyCannyAlgorythm\Cann\. You may want to enable vcpkg manifests in your properties page or pass /p:VcpkgEnableManifest=true to the msbuild invocation.
+     Creating library C:\Users\lucas\Desktop\studia\JA\AssemblyCannyAlgorythm\Cann\x64\Release\CAN_ASMdll.lib and object C:\Users\lucas\Desktop\studia\JA\AssemblyCannyAlgorythm\Cann\x64\Release\CAN_ASMdll.exp
+CAN_ASMdll.exp : warning LNK4070: /OUT:JADll.dll directive in .EXP differs from output filename 'C:\Users\lucas\Desktop\studia\JA\AssemblyCannyAlgorythm\Cann\x64\Release\CAN_ASMdll.dll'; ignoring directive
+  LINK : /LTCG specified but no code generation required; remove /LTCG from the link command line to improve linker performance
+CAN_ASMdll.exp : warning LNK4070: /OUT:JADll.dll directive in .EXP differs from output filename 'C:\Users\lucas\Desktop\studia\JA\AssemblyCannyAlgorythm\Cann\x64\Release\CAN_ASMdll.dll'; ignoring directive
+  CAN_ASMdll.vcxproj -> C:\Users\lucas\Desktop\studia\JA\AssemblyCannyAlgorythm\Cann\x64\Release\CAN_ASMdll.dll
+  'pwsh.exe' is not recognized as an internal or external command,
+  operable program or batch file.

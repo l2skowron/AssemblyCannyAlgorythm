@@ -19,8 +19,18 @@
     </ProjectConfiguration>
   </ItemGroup>
   <ItemGroup>
-    <None Include="candll.asm" />
+    <MASM Include="..\..\..\..\..\GradientAsm.asm" />
+    <MASM Include="convertToGrayAsm.asm">
+      <FileType>Document</FileType>
+    </MASM>
+    <MASM Include="DoubleThresholdingAsm.asm" />
+    <MASM Include="GaussFilterAsm.asm" />
+    <MASM Include="HisterezisAsm.asm" />
+    <MASM Include="MaximumSuppressionAsm.asm" />
     <None Include="candll.def" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="CAN_ASMDLL.h" />
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>17.0</VCProjectVersion>
@@ -58,6 +68,7 @@
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
   <ImportGroup Label="ExtensionSettings">
+    <Import Project="$(VCTargetsPath)\BuildCustomizations\masm.props" />
   </ImportGroup>
   <ImportGroup Label="Shared">
   </ImportGroup>
@@ -119,6 +130,9 @@
       <SubSystem>Windows</SubSystem>
       <GenerateDebugInformation>true</GenerateDebugInformation>
       <EnableUAC>false</EnableUAC>
+      <ModuleDefinitionFile>candll.def</ModuleDefinitionFile>
+      <IgnoreAllDefaultLibraries>false</IgnoreAllDefaultLibraries>
+      <NoEntryPoint>true</NoEntryPoint>
     </Link>
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
@@ -138,9 +152,11 @@
       <EnableUAC>false</EnableUAC>
       <ModuleDefinitionFile>candll.def</ModuleDefinitionFile>
       <NoEntryPoint>true</NoEntryPoint>
+      <IgnoreAllDefaultLibraries>false</IgnoreAllDefaultLibraries>
     </Link>
   </ItemDefinitionGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
+    <Import Project="$(VCTargetsPath)\BuildCustomizations\masm.targets" />
   </ImportGroup>
 </Project>

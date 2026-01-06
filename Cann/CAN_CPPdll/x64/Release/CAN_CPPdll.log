@@ -1,0 +1,42 @@
+﻿C:\Users\lucas\Desktop\studia\JA\AssemblyCannyAlgorythm\Cann\CAN_CPPdll\CAN_CPPdll.vcxproj(167,3): warning MSB4011: "C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\VC\v170\Microsoft.Cpp.targets" cannot be imported again. It was already imported at "C:\Users\lucas\Desktop\studia\JA\AssemblyCannyAlgorythm\Cann\CAN_CPPdll\CAN_CPPdll.vcxproj (166,3)". This is most likely a build authoring error. This subsequent import will be ignored. 
+  The vcpkg manifest was disabled, but we found a manifest file in C:\Users\lucas\Desktop\studia\JA\AssemblyCannyAlgorythm\Cann\. You may want to enable vcpkg manifests in your properties page or pass /p:VcpkgEnableManifest=true to the msbuild invocation.
+  cpp_lib.cpp
+C:\Users\lucas\Desktop\studia\JA\AssemblyCannyAlgorythm\Cann\Cann\cpp_lib.cpp(6,6): warning C4273: 'convertToGray': inconsistent dll linkage
+      C:\Users\lucas\Desktop\studia\JA\AssemblyCannyAlgorythm\Cann\Cann\cpp_lib.h(15,16):
+      see previous definition of 'convertToGray'
+  
+C:\Users\lucas\Desktop\studia\JA\AssemblyCannyAlgorythm\Cann\Cann\cpp_lib.cpp(36,6): warning C4273: 'gaussFilter': inconsistent dll linkage
+      C:\Users\lucas\Desktop\studia\JA\AssemblyCannyAlgorythm\Cann\Cann\cpp_lib.h(16,16):
+      see previous definition of 'gaussFilter'
+  
+C:\Users\lucas\Desktop\studia\JA\AssemblyCannyAlgorythm\Cann\Cann\cpp_lib.cpp(49,21): warning C4018: '<': signed/unsigned mismatch
+C:\Users\lucas\Desktop\studia\JA\AssemblyCannyAlgorythm\Cann\Cann\cpp_lib.cpp(70,6): warning C4273: 'gradient': inconsistent dll linkage
+      C:\Users\lucas\Desktop\studia\JA\AssemblyCannyAlgorythm\Cann\Cann\cpp_lib.h(17,16):
+      see previous definition of 'gradient'
+  
+C:\Users\lucas\Desktop\studia\JA\AssemblyCannyAlgorythm\Cann\Cann\cpp_lib.cpp(114,25): warning C4305: '+=': truncation from 'double' to '_Ty'
+C:\Users\lucas\Desktop\studia\JA\AssemblyCannyAlgorythm\Cann\Cann\cpp_lib.cpp(114,25): warning C4305:         with
+C:\Users\lucas\Desktop\studia\JA\AssemblyCannyAlgorythm\Cann\Cann\cpp_lib.cpp(114,25): warning C4305:         [
+C:\Users\lucas\Desktop\studia\JA\AssemblyCannyAlgorythm\Cann\Cann\cpp_lib.cpp(114,25): warning C4305:             _Ty=float
+C:\Users\lucas\Desktop\studia\JA\AssemblyCannyAlgorythm\Cann\Cann\cpp_lib.cpp(114,25): warning C4305:         ]
+C:\Users\lucas\Desktop\studia\JA\AssemblyCannyAlgorythm\Cann\Cann\cpp_lib.cpp(84,8): warning C4101: 'r': unreferenced local variable
+C:\Users\lucas\Desktop\studia\JA\AssemblyCannyAlgorythm\Cann\Cann\cpp_lib.cpp(122,6): warning C4273: 'nonMaximumSuspension': inconsistent dll linkage
+      C:\Users\lucas\Desktop\studia\JA\AssemblyCannyAlgorythm\Cann\Cann\cpp_lib.h(18,16):
+      see previous definition of 'nonMaximumSuspension'
+  
+C:\Users\lucas\Desktop\studia\JA\AssemblyCannyAlgorythm\Cann\Cann\cpp_lib.cpp(214,6): warning C4273: 'doubleThresholding': inconsistent dll linkage
+      C:\Users\lucas\Desktop\studia\JA\AssemblyCannyAlgorythm\Cann\Cann\cpp_lib.h(19,16):
+      see previous definition of 'doubleThresholding'
+  
+C:\Users\lucas\Desktop\studia\JA\AssemblyCannyAlgorythm\Cann\Cann\cpp_lib.cpp(234,6): warning C4273: 'histerezis': inconsistent dll linkage
+      C:\Users\lucas\Desktop\studia\JA\AssemblyCannyAlgorythm\Cann\Cann\cpp_lib.h(20,16):
+      see previous definition of 'histerezis'
+  
+     Creating library C:\Users\lucas\Desktop\studia\JA\AssemblyCannyAlgorythm\Cann\x64\Release\CAN_CPPdll.lib and object C:\Users\lucas\Desktop\studia\JA\AssemblyCannyAlgorythm\Cann\x64\Release\CAN_CPPdll.exp
+  Generating code
+  Previous IPDB not found, fall back to full compilation.
+  All 81 functions were compiled because no usable IPDB/IOBJ from previous compilation was found.
+  Finished generating code
+  CAN_CPPdll.vcxproj -> C:\Users\lucas\Desktop\studia\JA\AssemblyCannyAlgorythm\Cann\x64\Release\CAN_CPPdll.dll
+  'pwsh.exe' is not recognized as an internal or external command,
+  operable program or batch file.

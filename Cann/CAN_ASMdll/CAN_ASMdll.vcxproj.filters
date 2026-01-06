@@ -15,11 +15,33 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <None Include="candll.asm">
-      <Filter>Source Files</Filter>
-    </None>
     <None Include="candll.def">
       <Filter>Source Files</Filter>
     </None>
+  </ItemGroup>
+  <ItemGroup>
+    <MASM Include="convertToGrayAsm.asm">
+      <Filter>Source Files</Filter>
+    </MASM>
+    <MASM Include="GaussFilterAsm.asm">
+      <Filter>Source Files</Filter>
+    </MASM>
+    <MASM Include="..\..\..\..\..\GradientAsm.asm">
+      <Filter>Source Files</Filter>
+    </MASM>
+    <MASM Include="MaximumSuppressionAsm.asm">
+      <Filter>Source Files</Filter>
+    </MASM>
+    <MASM Include="DoubleThresholdingAsm.asm">
+      <Filter>Source Files</Filter>
+    </MASM>
+    <MASM Include="HisterezisAsm.asm">
+      <Filter>Source Files</Filter>
+    </MASM>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="CAN_ASMDLL.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>

@@ -1,1 +1,5 @@
-﻿
+﻿  Assembling HisterezisAsm.asm...
+  The vcpkg manifest was disabled, but we found a manifest file in C:\Users\lucas\Desktop\studia\JA\AssemblyCannyAlgorythm\Cann\. You may want to enable vcpkg manifests in your properties page or pass /p:VcpkgEnableManifest=true to the msbuild invocation.
+  CAN_ASMdll.vcxproj -> C:\Users\lucas\Desktop\studia\JA\AssemblyCannyAlgorythm\Cann\x64\Debug\CAN_ASMdll.dll
+  'pwsh.exe' is not recognized as an internal or external command,
+  operable program or batch file.

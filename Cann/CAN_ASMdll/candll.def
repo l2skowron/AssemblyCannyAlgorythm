@@ -1,0 +1,9 @@
+;-------------------------------------------------------------------------
+LIBRARY CAN_ASMdll
+EXPORTS convertToGrayAsm
+EXPORTS GaussFilterAsm
+EXPORTS GradientAsm
+EXPORTS NonMaximumSuspensionAsm
+EXPORTS DoubleThresholdingAsm
+EXPORTS HisterezisAsm
+;-------------------------------------------------------------------------

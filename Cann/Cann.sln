@@ -7,6 +7,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Cann", "Cann\Cann.vcxproj",
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "CAN_ASMdll", "CAN_ASMdll\CAN_ASMdll.vcxproj", "{22830D4C-5852-4521-A4A2-04B0DDC53E49}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "CAN_CPPdll", "CAN_CPPdll\CAN_CPPdll.vcxproj", "{F01AD73B-7156-48F0-9586-489B4F77A766}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -31,6 +33,14 @@ Global
 		{22830D4C-5852-4521-A4A2-04B0DDC53E49}.Release|x64.Build.0 = Release|x64
 		{22830D4C-5852-4521-A4A2-04B0DDC53E49}.Release|x86.ActiveCfg = Release|Win32
 		{22830D4C-5852-4521-A4A2-04B0DDC53E49}.Release|x86.Build.0 = Release|Win32
+		{F01AD73B-7156-48F0-9586-489B4F77A766}.Debug|x64.ActiveCfg = Debug|x64
+		{F01AD73B-7156-48F0-9586-489B4F77A766}.Debug|x64.Build.0 = Debug|x64
+		{F01AD73B-7156-48F0-9586-489B4F77A766}.Debug|x86.ActiveCfg = Debug|Win32
+		{F01AD73B-7156-48F0-9586-489B4F77A766}.Debug|x86.Build.0 = Debug|Win32
+		{F01AD73B-7156-48F0-9586-489B4F77A766}.Release|x64.ActiveCfg = Release|x64
+		{F01AD73B-7156-48F0-9586-489B4F77A766}.Release|x64.Build.0 = Release|x64
+		{F01AD73B-7156-48F0-9586-489B4F77A766}.Release|x86.ActiveCfg = Release|Win32
+		{F01AD73B-7156-48F0-9586-489B4F77A766}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

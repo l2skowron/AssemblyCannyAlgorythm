@@ -2,6 +2,12 @@
 <Project>
   <ProjectOutputs>
     <ProjectOutput>
+      <FullPath>C:\Users\lucas\Desktop\studia\JA\AssemblyCannyAlgorythm\Cann\x64\Debug\CAN_ASMdll.dll</FullPath>
+    </ProjectOutput>
+    <ProjectOutput>
+      <FullPath>C:\Users\lucas\Desktop\studia\JA\AssemblyCannyAlgorythm\Cann\x64\Debug\CAN_CPPdll.dll</FullPath>
+    </ProjectOutput>
+    <ProjectOutput>
       <FullPath>C:\Users\lucas\Desktop\studia\JA\AssemblyCannyAlgorythm\Cann\x64\Debug\Cann.exe</FullPath>
     </ProjectOutput>
   </ProjectOutputs>

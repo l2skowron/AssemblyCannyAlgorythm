@@ -1,0 +1,12 @@
+{
+  "name": "canny-processor-solution",
+  "version": "1.0.0",
+  "dependencies": [
+    {
+      "name": "sfml",
+      "version>=": "3.0.0",
+      "features": [ "graphics", "window" ]
+    }
+  ],
+  "builtin-baseline": "ec91f0f2b40407aae72838de9eecafd1f89c8d90"
+}
